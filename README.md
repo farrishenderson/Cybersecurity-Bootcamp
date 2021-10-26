@@ -139,9 +139,11 @@ The following screenshot displays the result of running `docker ps` after succes
 This ELK server is configured to monitor the following machines:
     a) Web1 10.0.0.5
     b) Web2 10.0.0.6
+    
 We have installed the following Beats on these machines:
     a) Web1: Filebeat, Metricbeat
     b) Web2: Filebeat, Metricbeat
+    
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
 Filebeat collects and monitors the system for local file system changes. Metricbeat on the other hand logs CPU and RAM utilization. 
