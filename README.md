@@ -210,7 +210,7 @@ SSH into the control node and follow the steps below:
 
 - Update the /etc/ansible/hosts file to include...
 
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Run the playbook, and navigate to http://10.1.0.5:5601/app/kibana to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
